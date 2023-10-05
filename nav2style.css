@@ -32,19 +32,25 @@ header nav {
 }
 
 .nav-list li a {
+    position: relative;
     text-decoration: none;
     color: black;
     font-weight: bold;
     padding: 5px 10px;
     transition: color 0.3s;
+    border-radius: 10%;
 }
+
 
 .nav-list li a:hover {
     color: rgb(86, 223, 223);
-    transform: scale(1.1);
+    transform:  scale(1.1);
+    
 }
-
-
+input { 
+    border-radius: 10px;
+    float: right;
+}
 .contact-button {
     border: none;
     border-radius: 5px;
@@ -54,10 +60,16 @@ header nav {
     background-color: grey;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    margin-right: 40px;
 }
 
 .contact-button:hover {
     background-color: rgb(86, 223, 223);
     color: black;
-    transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.divclass {
+    display: flex;
+    
 }
