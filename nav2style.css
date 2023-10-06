@@ -50,8 +50,9 @@ header nav {
 input { 
     border-radius: 10px;
     float: right;
+    margin-right: 20px;
 }
-.contact-button {
+.button {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -63,10 +64,10 @@ input {
     margin-right: 40px;
 }
 
-.contact-button:hover {
-    background-color: rgb(86, 223, 223);
+.button:hover {
     color: black;
     transform: scale(1.1);
+   
 }
 
 .divclass {
