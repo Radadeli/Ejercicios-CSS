@@ -1,0 +1,108 @@
+.conteinercard {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .card img {
+    border-radius: 50%;
+  }
+  
+  .cardheader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+   
+  }
+  .profilecat1 {
+    width: 100%;
+    max-width: 50px;
+  }
+  h2, p { 
+    margin: 0 0 0 10px;
+  }
+  .profile-info {
+    margin: 0 0 0 10px;
+  }
+  
+  .card-image img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  .card-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin-top: 10px;
+  }
+  
+ .buttonheart {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-image: url('iconheart.jpg'); 
+  background-size: 20px; 
+  background-repeat: no-repeat;
+ }
+
+ .bottoncomment {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-image: url('iconocomment.png'); 
+    background-size: 20px; 
+    background-repeat: no-repeat;
+ }
+
+ .paragraph { 
+  margin-top: 15px;
+ }
+
+ .profilecat2 {
+    width: 100%;
+    max-width: 50px;
+ }
+
+ .card-image2 img {
+  background-image: url(cat2.jpg);
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+ }
+ 
+ .profilecat3 {
+  width: 100%;
+  height: 50px;
+  max-width: 50px;
+}
+
+.card-image3 img {
+background-image: url(cat3.png);
+width: 100%;
+max-width: 200px;
+height: 200px;
+border-radius: 10px;
+}
+  
+  @media (max-width: 375px) {
+    .conteinercard {
+      flex-direction: column;
+    }
+
+  }
+  
+  @media (max-width: 768px) {
+    .conteinercard {
+      flex-direction: column;
+     
+    }
+  }
