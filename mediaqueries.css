@@ -95,14 +95,18 @@ border-radius: 10px;
   
   @media (max-width: 375px) {
     .conteinercard {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
     }
 
   }
   
   @media (max-width: 768px) {
     .conteinercard {
-      flex-direction: column;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
      
     }
   }
