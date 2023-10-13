@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    color: white;
+    
+    
+    
+}
+
+.navbar {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    font-style: none;
+    border-radius: 10px;
+    background-image: url('iconburger.png');
+    background-repeat: no-repeat;
+    background-size: 30px; 
+    background-position: 10px center;
+    
+}
+
+.macburger {
+    list-style: none;
+    display: flex;
+    text-decoration: none; 
+    margin-right: 30px;   
+
+}
+
+.macburger > li > a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none; 
+    color: white;
+    
+}
+
+.macburger > li:hover {
+    background-color: rgb(37, 44, 59);
+    border-radius: 20px;
+}
+
+.submenu {
+    position: absolute;
+    top: 50px;
+    display: none;
+    list-style: none;
+    width: 150px;
+    background-color: rgb(31, 71, 104);
+    border-radius: 20px;
+    padding-inline-start: 20px;
+
+}
+.macburger li:hover .submenu {
+    display: block;
+}
+.submenu li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 0px;
+    text-decoration: none;
+}
+
+.submenu li {
+    list-style: none;
+    text-align: left;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
