@@ -4,11 +4,12 @@ body {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
     color: white;
-    
-    
-    
+    background-color: blue;
 }
+#burgericon {
+    display: none;
 
+}
 .navbar {
     max-width: 600px;
     margin: auto;
@@ -76,4 +77,13 @@ body {
     display: flex;
     justify-content: center ;
     align-items: center;
+}
+
+@media only screen and (max-width: 768px) {
+ .navbar {
+    display: none;
+    }
+    #burgericon {
+        display: inline-block;
+    } 
 }
